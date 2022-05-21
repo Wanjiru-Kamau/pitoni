@@ -1,0 +1,6 @@
+def products_and_greet(*args,**kwargs):
+    products=1
+    for num in args:
+        products*=num
+    print(products)
+    print(f"Hello{kwargs}")
